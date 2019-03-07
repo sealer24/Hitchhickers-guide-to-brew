@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 360.23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #a8a8a8;
+      }
+    </style>
+  </defs>
+  <title>needle</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <path class="cls-1" d="M400.64-.23h0A642.35,642.35,0,0,1,414,131.16V346a14,14,0,0,1-14,14h0a14,14,0,0,1-14-14V132A592.51,592.51,0,0,1,400.64-.23Z" transform="translate(-386 0.23)"/>
+  </g>
+</svg>

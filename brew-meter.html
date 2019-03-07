@@ -6,45 +6,32 @@
             margin: auto;
             }
             #meter {
-                width: 100%; height: 100%;
+                width: 100%;
+                height: 100%;
                 transform: rotateX(180deg);
             }
             .circle {
                 fill: none;
-            }
-
-            .range {
-                stroke-width: 60;
             }
             #slider, #lbl {
                 position: absolute;
             }
             #slider {
                 cursor: pointer;
-                left: 0;
                 margin: auto;
-                right: 0;
-                top: 58%;
-                width: 94%;
-            }
-            #lbl {
-                background-color: #4B4C51;
-                border-radius: 2px;
-                color: white;
-                font-family: 'courier new';
-                font-size: 15pt;
-                font-weight: bold;
-                padding: 4px 4px 4px 4px;
-                align-self: center;
+                top: 60%;
+                left: 40%;
                 right: 50%;
+                
             }
+            
             #meter_needle {
                 height: 40%;
-                left: 0;
+                top: 10%;
+                left: 48%;
+                right: 50%;
                 margin: auto;
                 position: absolute;
-                right: 0px;
-                top: 10%;
                 /*orientation fix*/
                 transform-origin: bottom center;
                 transform: rotate(270deg);
@@ -99,7 +86,8 @@ function range_change_event() {
         (270 + ((percent * 180) / 100)) + "deg)";
     lbl.textContent = percent + "%";
 }
-slider.addEventListener("input", range_change_event);</script>
+slider.addEventListener("input", range_change_event);
+        </script>
         </body>
     
     </html>

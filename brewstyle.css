@@ -1,0 +1,168 @@
+/* RESET 2 */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: 400;
+}
+
+body {
+    line-height: 1.1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;   
+}
+
+nav ul {
+    list-style: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content:''; content:none;
+
+}
+/*  END RESET */
+
+
+#baggrund {
+    background-image: url(COLOURBOX8711763.jpg);
+}
+
+#flaske{
+    width: auto;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    grid-area: flaske;
+    z-index: 1;
+    position: fixed;
+    left: 25%;
+    
+}
+
+#wrapperTemp {
+    width: auto;
+    position: fixed;
+    z-index: 2;
+    top: 40px;
+    transform: scale(0.36); 
+    margin-left: auto;
+    margin-right: auto;
+    left: -27%;
+}
+
+#wrapperCo2 {
+    width: auto;
+    position: fixed;
+    z-index: 2;
+    top: 190px;
+    transform: scale(0.36); 
+    margin-left: auto;
+    margin-right: auto;
+    left: -27%;
+}
+
+#lblTekst{
+    position: absolute;
+    top: 110px; 
+    font-size: 50px;
+    color: white;
+    left: 120px;
+    z-index: 3;
+}
+
+#lblTekst2{
+    position: absolute;
+    top: 110px;
+    font-size: 50px;
+    color: white;
+    left: 130px;
+    z-index: 3;
+}
+
+
+#lblTemp{
+    font-size: 80px;
+    position: absolute;
+    left: 85px;
+    color: white; 
+    top: -120px;
+    
+}
+
+#lblCo2{
+    font-size: 80px;
+    position: absolute;
+    left: 35px;
+    color: white; 
+    top: -120px;
+    
+}
+
+
+
+#meterTemp {
+    width: 400px;
+    height: 400px;
+    transform: rotateX(180deg);
+    
+}
+
+#meterCo2 {
+    width: 400px;
+    height: 400px;
+    transform: rotateX(180deg);
+    
+}
+
+.circle {
+    fill: none;
+}
+                      
+
+            
+#meterTemp_needle {
+    height: 40%;
+    top: -7%;
+    left: 33%;
+    margin: auto;
+    position: absolute;
+    /*orientation fix*/
+    transform-origin: bottom center;
+    transform: rotate(270deg);
+}
+
+            
+#meterCo2_needle {
+    height: 40%;
+    top: -7%;
+    left: 33%;
+    margin: auto;
+    position: absolute;
+    /*orientation fix*/
+    transform-origin: bottom center;
+    transform: rotate(270deg);
+}
+
+#alc{
+    text-align: center;  
+    z-index: 2;
+    position: absolute;
+    color: white;
+    top: 475px;
+    left: 130px;
+}
+
+#forventetAlc{
+    font-size: 25px;
+}
+
+#nuAlc{
+    font-size: 25px;
+}

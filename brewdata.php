@@ -10,7 +10,7 @@
     $sql = $sql . ' avg(value) as nvalue ';
     $sql = $sql . ' FROM iot ';
     $sql = $sql . ' WHERE system = "'. $system.'" AND source = "' . $source . '" ';
-    $sql = $sql . ' AND obstime >= DATE_SUB(NOW(), INTERVAL 1 DAY ) ';
+    $sql = $sql . ' AND obstime >= DATE_SUB(NOW(), INTERVAL 15 minute ) ';
     $sql = $sql . ' GROUP BY nobstime';
     $sql = $sql . ' order by nobstime desc';
    

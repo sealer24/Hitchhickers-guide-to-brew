@@ -28,7 +28,9 @@
             var xhhtp = new XMLHttpRequest();
             xhhtp.onreadystatechange = function(){ 
                 if (this.readyState == 4 && this.status == 200){
-                    var distancejason = JSON.parse(this.responseText); 
+                    var distancejason = JSON.parse(this.responseText);
+                    afstand=[];
+                    afstandTid=[];
                     visAfstand(distancejason);
                 }
             };
@@ -49,7 +51,9 @@
             var xhhtp = new XMLHttpRequest();
             xhhtp.onreadystatechange = function(){
                 if (this.readyState == 4 && this.status == 200){
-                    var co2jason = JSON.parse(this.responseText); 
+                    var co2jason = JSON.parse(this.responseText);
+                    co2=[];
+                    co2Tid=[];
                     visCo2(co2jason); 
                 }
             }; 
@@ -71,6 +75,8 @@
             xhhtp.onreadystatechange = function(){
                 if (this.readyState == 4 && this.status == 200){
                     var tempjason = JSON.parse(this.responseText); 
+                    temp=[];
+                    tempTid=[];
                     visTemp(tempjason);
                     grafData();
                 } 
@@ -119,7 +125,6 @@
         
         
         hentData();
-        grafData();
         
        
         //Henter hver x minut - Kommer mere senere

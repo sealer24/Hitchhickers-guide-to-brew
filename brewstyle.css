@@ -41,38 +41,35 @@ blockquote:before, blockquote:after, q:before, q:after {
     display: block;
     grid-area: flaske;
     z-index: 1;
-    position: fixed;
-    left: 25%;
+    position: absolute;
+    float: right;
     
 }
 
 #wrapperTemp {
     width: auto;
-    position: fixed;
+    position: absolute;
     z-index: 2;
     top: 40px;
     transform: scale(0.36); 
     margin-left: auto;
     margin-right: auto;
-    left: -27%;
 }
 
 #wrapperCo2 {
     width: auto;
-    position: fixed;
+    position: absolute;
     z-index: 2;
     top: 190px;
     transform: scale(0.36); 
     margin-left: auto;
     margin-right: auto;
-    left: -27%;
 }
 
 #lblTekst{
     position: absolute;
     top: 110px; 
     font-size: 50px;
-    color: white;
     left: 120px;
     z-index: 3;
 }
@@ -81,7 +78,6 @@ blockquote:before, blockquote:after, q:before, q:after {
     position: absolute;
     top: 110px;
     font-size: 50px;
-    color: white;
     left: 130px;
     z-index: 3;
 }
@@ -91,7 +87,6 @@ blockquote:before, blockquote:after, q:before, q:after {
     font-size: 80px;
     position: absolute;
     left: 85px;
-    color: white; 
     top: -120px;
     
 }
@@ -99,8 +94,7 @@ blockquote:before, blockquote:after, q:before, q:after {
 #lblCo2{
     font-size: 80px;
     position: absolute;
-    left: 35px;
-    color: white; 
+    left: 35px; 
     top: -120px;
     
 }
@@ -154,9 +148,8 @@ blockquote:before, blockquote:after, q:before, q:after {
     text-align: center;  
     z-index: 2;
     position: absolute;
-    color: white;
     top: 475px;
-    left: 130px;
+    left: 230px;
 }
 
 #forventetAlc{

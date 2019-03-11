@@ -7,8 +7,7 @@
         <title>Brew Starter</title>
         
     </head>
-<body>
-    <div id=""> 
+<body> 
     <img id="flaske" src="flaske4.png">
     <div id="wrapperTemp"> 
            <p id="lblTekst">Temp.</p>
@@ -55,7 +54,6 @@
             <p id="nuAlc">0 %</p>
     </div>
        <input type="button" onClick="removeLocal()" name="fjern data" value="Ny Øl">
-    </div>
     <form action="http://stef151i.web.eadania.dk/brewStarter/brewPlotly.php">
         <button type="submit">Mere Data</button>
     </form>
@@ -108,7 +106,7 @@
             
                 } 
             range_change_alc(afstand, afstandTid);
-            range_change_fAlc();
+            range_change_fAlc(afstand);
             }
     
         function range_change_fAlc(){
